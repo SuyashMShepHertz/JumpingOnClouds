@@ -1,0 +1,56 @@
+options
+{
+	module_path="../cocos2dx/proj.marmalade/;../appwarp/"
+}
+
+subprojects
+{
+	iwgl
+	cocos2dx
+	appwarp
+	iwhttp
+}
+
+assets
+{
+	(./data)
+	arrow.png
+	bg_cloud1.png
+	bg_cloud2.png
+	bg_cloud3.png
+	char_jump_1.png
+	char_jump_2.png
+	char_shoot_1.png
+	char_shoot_2.png
+	char_walk_1.png
+	char_walk_2.png
+	cloud1.png
+	cloud2.png
+	cloud3.png
+	monster_grey1.png
+	monster_grey2.png
+	monster_blue.png
+	bg.png
+	shephertz.png
+	btn.png
+	btn_new.png
+	gametitle.png
+}
+
+
+
+files
+{
+	(source)
+	AppDelegate.h
+	AppDelegate.cpp
+	IntroScreen.h
+	IntroScreen.cpp
+	MenuScreen.h
+	MenuScreen.cpp
+	SinglePlayer.h
+	SinglePlayer.cpp
+	Main.cpp
+}
+
+
